@@ -1,7 +1,7 @@
 while True:
 
 	# obtenir une phrase
-	original = input("Ecris la phrase: ")
+	original = input("Write your sentence: ")
 	# spliter la phrase
 	lettres = list(original)
 	# trouver l'équivalence fr/morse
@@ -31,4 +31,4 @@ while True:
 	# reformer la phrase en morse
 	output = " ".join(newSentence)
 	# l'afficher
-	print("{} s'écrit {} en morse !".format(original,output))
+	print("{} is {} traduced in morse !".format(original,output))
